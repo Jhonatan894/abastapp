@@ -74,7 +74,7 @@ export default function CadastroGoogle() {
       </View>
 
       <Text style={styles.subtitle}>
-        Entre com sua conta Google
+        Entre com sua conta Gmail
       </Text>
 
       <TouchableOpacity
@@ -82,7 +82,7 @@ export default function CadastroGoogle() {
         onPress={() => promptAsync()}
         disabled={!request}
       >
-        <Text style={styles.buttonText}>Entrar com Google</Text>
+        <Text style={styles.buttonText}>Entrar com Gmail</Text>
       </TouchableOpacity>
     </View>
   );
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     textAlign: 'center',
-    color: '#022C22',
+    color: '#070707',
     fontSize: 16,
     fontWeight: '600',
   },

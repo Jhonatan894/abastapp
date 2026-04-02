@@ -25,7 +25,7 @@ export default function Login() {
         onPress={() => router.push('/cadastro-google')}
       >
         <Text style={styles.buttonText}>
-          Entrar com Google
+          Entrar com Gmail
         </Text>
       </TouchableOpacity>
 
